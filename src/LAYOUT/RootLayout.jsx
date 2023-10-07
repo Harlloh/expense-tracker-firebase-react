@@ -1,11 +1,11 @@
+import { Box } from "@mui/material";
 import React from "react";
 import { Outlet } from "react-router-dom";
 
-export default function CareerLayout() {
+export default function Layout() {
   return (
-    <div>
-      <h1>CareerLayout</h1>
+    <Box>
       <Outlet />
-    </div>
+    </Box>
   );
 }
